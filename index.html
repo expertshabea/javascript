@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js</title>
+</head>
+<body>
+    <a href="f:\css2\j2\index.html"><b>page 2</b></a>
+    <a href="f:\css2\j3\index.html"><b>Page 3</b></a>
+    <a href="f:\css2\j5\index.html"><b>Page 4</b></a>
+    <a href="f:\css2\j6\index.html"><b>page 5</b></a>
+    <a href="f:\css2\j7\index.html"><b>page 6</b></a>
+    <a href="f:\css2\j8\index.html"><b>page 7</b></a>
+    <a href="f:\css2\j4\index.html"><b>page 8</b></a>
+    <a href="f:\css2\j9\index.html"><b>page 9</b></a>
+    <a href="f:\css2\j10\index.html"><b>page 10</b></a>
+    <a href="f:\css2\j11\index.html"><b>page 11</b></a>
+    <a href="f:\css2\j12\index.html"><b>page 12</b></a>
+    <a href="f:\css2\j13\index.html"><b>page 13</b></a>
+    <a href="f:\css2\j14\index.html"><b>page 14</b></a>
+    <a href="f:\css2\j15\index.html"><b>page 15</b></a>
+    <a href="f:\css2\j16\index.html"><b>page 16</b></a>
+   <b><center> 1. Write a program to take a number in a variable, do the
+required arithmetic to display the following result in your
+browser:</center></b>
+    <h1>Result: <br>
+        The value of a is: 10 <br>
+        -----------------------
+        <br>
+        <br>
+        The value of ++a is:11<br>
+        Now the value of a is:11
+        <br>
+        <br>
+        <br>
+        The value of a++ is:11<br>
+        Now the value of a is:12
+        <br>
+        <br>
+        <br>
+        The value of --a is:11<br>
+        Now the value of a is:11
+        <br>
+        <br>
+        <br>
+        The value of a-- is:11<br>
+        Now the value of a is:10</h1><br>
+
+        <b><center>Q2: What will be the output in variables a, b & result after
+            execution of the following script:
+            var a = 2, b = 1;
+            var result = --a - --b + ++b + b--;
+            Explain the output at each stage:<br>
+            --a;<br>
+            --a - --b;<br>
+            --a - --b + ++b;<br>
+            --a - --b + ++b + b--;</center></b>
+            
+          <h1>  1. --a
+            This is the pre-decrement operator. It decreases a by 1 before the expression is evaluated.<br>
+            
+            Initial value of a is 2.<br>
+            After --a, 
+            𝑎
+            =
+            1<br>
+            a=1.
+            2. --a - --b<br>
+            First, --a:<br>
+            
+            From the previous step, a was 1.<br>
+            After --a, <br>
+            𝑎
+            =
+            0<br>
+            a=0.<br>
+            Next, --b:<br>
+            
+            Initial value of b is 1.<br>
+            After --b, <br>
+            𝑏
+            =
+            0<br>
+            b=0.<br>
+            Now, perform the subtraction: <br>
+            0
+            −
+            0
+            =
+            0<br>
+            0−0=0.<br>
+            
+            3. --a - --b + ++b<br>
+            First, --a:<br>
+            
+            From the previous step, a was 0.<br>
+            After --a, <br>
+            𝑎
+            =
+            −
+            1<br>
+            a=−1.<br>
+            Next, --b:<br>
+            
+            From the previous step, b was 0.<br>
+            After --b, <br>
+            𝑏
+            =
+            −
+            1<br>
+            b=−1.<br>
+            Then, ++b (pre-increment increases b by 1 before the expression is evaluated):<br>
+            
+            After ++b, <br>
+            𝑏
+            =
+            0<br>
+            b=0.<br>
+            Now, perform the operations in order: <br>
+            −
+            1
+            −
+            (
+            −
+            1
+            )
+            +
+            0<br>
+            −1−(−1)+0.<br>
+            
+            The result is: <br>
+            −
+            1
+            −
+            (
+            −
+            1
+            )
+            =
+            0<br>
+            −1−(−1)=0.<br>
+            Then, 
+            0
+            +
+            0
+            =
+            0<br>
+            0+0=0.<br>
+            4. --a - --b + ++b + b--<br>
+            First, --a:<br>
+            
+            From the previous step, a was -1.<br>
+            After --a,<br> 
+            𝑎
+            =
+            −
+            2<br>
+            a=−2.<br>
+            Next, --b:<br>
+            
+            From the previous step, b was 0.<br>
+            After --b,<br> 
+            𝑏
+            =
+            −
+            1<br>
+            b=−1.<br>
+            Then, ++b (pre-increment increases b by 1 before the expression is evaluated):<br>
+            
+            After ++b, <br>
+            𝑏
+            =
+            0<br>
+            b=0.<br>
+            Finally, b-- (post-decrement decreases b by 1 after the expression is evaluated):<br>
+            
+            Before b--, b is 0.<br>
+            After b--, <br>
+            𝑏
+            =
+            −
+            1<br>
+            b=−1.<br>
+            Now, perform the operations in order:<br> 
+            −
+            2
+            −
+            (
+            −
+            1
+            )
+            +
+            0
+            +
+            0<br>
+            −2−(−1)+0+0.<br>
+            
+            The result is: <br>
+            −
+            2
+            −
+            (
+            −
+            1
+            )
+            =
+            −
+            1<br>
+            −2−(−1)=−1.<br>
+            Then,<br> 
+            −
+            1
+            +
+            0
+            =
+            −
+            1<br>
+            −1+0=−1.<br>
+            Finally, <br>
+            −
+            1
+            +
+            0
+            =
+            −
+            1<br>
+            −1+0=−1.<br>
+            Final Values<br>
+            a = -2<br>
+            b = -1<br>
+            result = -1<br>
+            So, the output in variables a, b, and result after execution of the script var a = 2, b = 1; var result = --a - --b + ++b + b--; is:<br>
+            
+            a = -2<br>
+            b = -1<br>
+            result = -1<br>
+            Explanation of Each Stage<br>
+            --a<br>
+            
+            Decrement a from 2 to 1.<br>
+            --a - --b<br>
+            
+            Decrement a from 1 to 0.<br>
+            Decrement b from 1 to 0.<br>
+            Subtract:<br> 
+            0
+            −
+            0
+            =
+            0<br>
+            0−0=0.<br>
+            --a - --b + ++b<br>
+            
+            Decrement a from 0 to -1.<br>
+            Decrement b from 0 to -1.<br>
+            Increment b from -1 to 0.<br>
+            Evaluate: <br>
+            −
+            1
+            −
+            (
+            −
+            1
+            )
+            +
+            0
+            =
+            0<br>
+            −1−(−1)+0=0.<br>
+            --a - --b + ++b + b--<br>
+            
+            Decrement a from -1 to -2.<br>
+            Decrement b from 0 to -1.<br>
+            Increment b from -1 to 0.<br>
+            Use b in the expression (which is 0) and then decrement b from 0 to -1.<br>
+            Evaluate: <br>
+            −
+            2
+            −
+            (
+            −
+            1
+            )
+            +
+            0
+            +
+            0
+            =
+            −
+            1<br>
+            −2−(−1)+0+0=−1<br></h1>
+            <br>
+            <br>
+           <h1> a = -2<br>
+b = -1<br>
+result = -1<br></h1>
+<br> 
+<b><center>Q3 Write a program that takes input a name from user & 
+greet the user.</center></b>
+
+
+
+<h1>Greeting Program
+    <p>Please enter your name:</p>
+    <input type="text" id="nameInput" placeholder="Enter your name">
+    <button onclick="greetUser()">Greet</button>
+    <p id="greetingMessage"></p>
+
+    <script>
+        function greetUser() {
+            // Get the value of the input field
+            var name = document.getElementById('nameInput').value;
+            
+            // Create a greeting message
+            var greetingMessage = "Hello, " + name + "! Welcome!";
+            
+            // Display the greeting message
+            document.getElementById('greetingMessage').innerText = greetingMessage;
+        }</h1>
+    </script>
+   <b><center> Q4 Write a program to take input a number from user & 
+    display it’s multiplication table on your browser. If user 
+    does not enter a new number, multiplication table of 5 
+    should be displayed by default.</center></b>
+    <h1>Multiplication Table</h1>
+    <p>Please enter a number:</p>
+    <input type="number" id="numberInput" placeholder="Enter a number">
+    <button onclick="displayTable()">Show Table</button>
+    <div id="tableDisplay"></div>
+
+    <script>
+        function displayTable() {
+            // Get the value of the input field
+            var num = document.getElementById('numberInput').value;
+
+            // If no value is entered, default to 5
+            if (num === "") {
+                num = 5;
+            } else {
+                num = parseInt(num);
+            }
+
+            // Generate the multiplication table
+            var table = "<h2>Multiplication Table of " + num + ":</h2>";
+            for (var i = 1; i <= 10; i++) {
+                table += num + " x " + i + " = " + (num * i) + "<br>";
+            }
+
+            // Display the multiplication table
+            document.getElementById('tableDisplay').innerHTML = table;
+        }
+        </script>
+      <b><center> Q5 Take<br>
+        a) Take three subjects name from user and store them in 3 
+        different variables.<br>
+        b) Total marks for each subject is 100, store it in another 
+        variable.<br>
+        c) Take obtained marks for first subject from user and 
+        stored it in different variable.<br>
+    
+
+        d) Take obtained marks for remaining 2 subjects from user 
+        and store them in variables.<br>
+        e) Now calculate total marks and percentage and show the 
+        result in browser like this.(Hint: user table)<br></center></b>
+
+
+<script>// Step a: Take three subjects names from the user
+var subject1 = prompt("Enter the name of the first subject:");
+var subject2 = prompt("Enter the name of the second subject:");
+var subject3 = prompt("Enter the name of the third subject:");
+
+// Step b: Total marks for each subject is 100
+var totalMarks = 100;
+
+// Step c: Take obtained marks for the first subject from the user
+var obtainedMarks1 = parseInt(prompt("Enter obtained marks for " + subject1 + ":"));
+
+// Step d: Take obtained marks for the remaining 2 subjects from the user
+var obtainedMarks2 = parseInt(prompt("Enter obtained marks for " + subject2 + ":"));
+var obtainedMarks3 = parseInt(prompt("Enter obtained marks for " + subject3 + ":"));
+
+// Step e: Calculate total marks and percentage
+var totalObtainedMarks = obtainedMarks1 + obtainedMarks2 + obtainedMarks3;
+var totalPercentage = (totalObtainedMarks / (totalMarks * 3)) * 100;
+
+// Display the result in a table in the browser
+document.write("<h2>Result</h2>");
+document.write("<table>");
+document.write("<tr><th>Subject</th><th>Total Marks</th><th>Obtained Marks</th></tr>");
+document.write("<tr><td>" + subject1 + "</td><td>" + totalMarks + "</td><td>" + obtainedMarks1 + "</td></tr>");
+document.write("<tr><td>" + subject2 + "</td><td>" + totalMarks + "</td><td>" + obtainedMarks2 + "</td></tr>");
+document.write("<tr><td>" + subject3 + "</td><td>" + totalMarks + "</td><td>" + obtainedMarks3 + "</td></tr>");
+document.write("<tr><td colspan='2'><b>Total</b></td><td><b>" + totalObtainedMarks + "</b></td></tr>");
+document.write("<tr><td colspan='2'><b>Percentage</b></td><td><b>" + totalPercentage.toFixed(2) + "%</b></td></tr>");
+document.write("</table>");</script>
+
+
+       
+</body>
+</html>
